@@ -1,5 +1,9 @@
+
+> Task :app:kspDebugKotlin
+
 > Task :app:compileDebugKotlin FAILED
-e: file:///Users/rukola/Android%20App/NoteVaultClean/app/src/main/java/com/notevault/utils/FileUtils.kt:63:48 Returns are not allowed for functions with expression body. Use block body in '{...}'
+e: file:///Users/rukola/Android%20App/NoteVaultClean/app/src/main/java/com/notevault/ui/notes/NoteListFragment.kt:84:48 Unresolved reference: shrink
+e: file:///Users/rukola/Android%20App/NoteVaultClean/app/src/main/java/com/notevault/ui/notes/NoteListFragment.kt:85:54 Unresolved reference: extend
 
 FAILURE: Build failed with an exception.
 
@@ -14,5 +18,5 @@ Execution failed for task ':app:compileDebugKotlin'.
 > Run with --scan to get full insights.
 > Get more help at https://help.gradle.org.
 
-BUILD FAILED in 29s
-52 actionable tasks: 43 executed, 9 from cache
+BUILD FAILED in 4s
+52 actionable tasks: 24 executed, 28 from cache
